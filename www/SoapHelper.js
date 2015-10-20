@@ -1,7 +1,7 @@
 function SoapHelper() {
 }
 
-Toast.prototype.caller = function (options, successCallback, errorCallback) {
+SoapHelper.prototype.caller = function (options, successCallback, errorCallback) {
   cordova.exec(successCallback, errorCallback, "SoapHelper", "caller", [options]);
 };
 
