@@ -1,18 +1,7 @@
-function SoapHelper() {
-}
+var exec = require('cordova/exec');
 
-SoapHelper.prototype.caller = function (options, successCallback, errorCallback) {
-  cordova.exec(successCallback, errorCallback, "SoapHelper", "caller", [options]);
+module.exports = {
+    caller : function(sucess,error) {
+        exec(sucess, error, 'SoapHelper', 'caller', []);
+    }
 };
-
-
-SoapHelper.install = function () {
-  if (!window.plugins) {
-    window.plugins = {};
-  }
-
-  window.plugins.soaphelper= new SoapHelper();
-  return window.plugins.soaphelper;
-};
-
-cordova.addConstructor(SoapHelper.install);
