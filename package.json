@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-soaphelper",
+  "version": "2.2.1",
+  "description": "This plugin helper user soap webserver",
+  "cordova": {
+    "id": "cordova-plugin-soaphelper",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guolf/SoapHelper-Cordova-Plugin.git"
+  },
+  "keywords": [
+    "soap",
+    "webserver",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "guolf <guolingfa@gmail.com> (https://github.com/guolf)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guolf/SoapHelper-Cordova-Plugin/issues"
+  },
+  "homepage": "https://github.com/guolf/SoapHelper-Cordova-Plugin#readme"
+}

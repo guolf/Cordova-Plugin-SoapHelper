@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-soaphelper"
+        version="0.0.1">
+
+  <name>SoapHelper</name>
+
+  <description>
+    This plugin allows you to show a Toast.
+    A Toast is a little non intrusive buttonless popup which automatically disappears.
+  </description>
+
+  <author>guolf</author>
+
+  <license>MIT</license>
+
+  <keywords>Toast, Notification, Message, Alert</keywords>
+
+  <repo>https://github.com/guolf/SoapHelper-Cordova-Plugin/.git</repo>
+
+  <issue>https://github.com/guolf/SoapHelper-Cordova-Plugin/issues</issue>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+  </engines>
+
+  <js-module src="www/SoapHelper.js" name="SoapHelper">
+    <clobbers target="window.plugins.soaphelper" />
+  </js-module>
+
+  <!-- android -->
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="SoapHelper">
+        <param name="android-package" value="cn.guolf.cordova.plugins.soap.SoapHelper" />
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/SoapHelper.java" target-dir="src/cn.guolf.cordova.plugins.soap"/>
+  </platform>
+  
+</plugin>
