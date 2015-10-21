@@ -1,7 +1,7 @@
 var exec = require('cordova/exec');
 
 module.exports = {
-    caller : function(sucess,error) {
-        exec(sucess, error, 'SoapHelper', 'caller', []);
+    caller : function(methdod,par,value,sucess,error) {
+        exec(sucess, error, 'SoapHelper', 'caller', [methdod,par,value]);
     }
 };
