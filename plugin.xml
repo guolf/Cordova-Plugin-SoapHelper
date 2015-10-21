@@ -2,19 +2,19 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-soaphelper"
-        version="0.0.2">
+        version="1.0.0">
 
   <name>SoapHelper</name>
 
   <description>
-    This plugin help you easy user soap on the cordova
+    webservice soaphelper
   </description>
 
   <author>guolf</author>
 
   <license>Apache 2.0</license>
 
-  <keywords>Soap,Phoengap,Cordova,WebServer</keywords>
+  <keywords>Soap,Phoengap,Cordova,webservice</keywords>
 
   <repo>https://github.com/guolf/SoapHelper-Cordova-Plugin/.git</repo>
 
