@@ -6,7 +6,7 @@ Cordova使用Soap调用webservice。
 安装：
 
 ```
-cordova plugin add https://github.com/guolf/SoapHelper-Cordova-Plugin.git
+cordova plugin add https://github.com/guolf/Cordova-Plugin-SoapHelper.git
 
 ```
 
